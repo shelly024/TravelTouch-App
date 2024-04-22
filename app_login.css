@@ -1,0 +1,101 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.phone-frame {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    border: solid 16px #000;
+    border-radius: 36px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #333;
+    height: 590px;
+}
+
+.top-bar {
+    background-color: #A2D9CE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.top-menu {
+    font-size: 24px;
+    color: #17202A;
+}
+
+.top-icons span {
+    font-size: 24px;
+    color: #17202A;
+}
+
+.logo-container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-top: 1px; /* 减少上边距，使文本上移 */
+    margin-bottom: 25px; /* 保持下边距不变 */
+    font-size: 24px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    padding-right: 20px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-button, .register-button {
+    padding: 8px;
+    background-color: #A2D9CE; /* 登录按钮的背景色 */
+    color: black;
+    border: none;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px; /* 统一底部外边距 */
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* 确保文本居中显示 */
+    text-decoration: none; /* 去除超链接的下划线 */
+}
+
+.login-button {
+  width: 44%;
+}
+
+.register-button {
+    background-color: #F9E79F; /* 注册按钮的背景色 */
+}
